@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {FaGlobeAmericas} from 'react-icons/fa'
+import CardList from './components/CardList';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <FaGlobeAmericas id="globe"/>
         <p>my travel journal</p>
       </header>
+      <CardList/>
     </div>
   );
 }
